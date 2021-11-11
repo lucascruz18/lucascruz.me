@@ -1,3 +1,3 @@
 # lucascruz.me
 
-## This is my personal website
+### My personal website

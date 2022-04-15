@@ -2,19 +2,18 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  width: 30%;
-  margin-bottom: 10px;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 60px;
+  background: #202020;
 `;
 
 export const Social = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-
-  margin-top: 100px;
 `;
 
 export const SocialText = styled.p`
@@ -22,7 +21,6 @@ export const SocialText = styled.p`
   font-size: 12px;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 15px;
   cursor: pointer;
   transition: 0.5s;
 
@@ -32,6 +30,6 @@ export const SocialText = styled.p`
 `;
 
 export const SocialButton = styled.a`
-  margin: 5px;
+  margin: 50px;
   text-decoration: none;
 `;

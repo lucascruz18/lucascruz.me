@@ -7,16 +7,17 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background: #000;
+  background: #171717;
   width: 100%;
 `
 
 export const Main = styled.main`
   display: flex;
+  align-items: start;
+  justify-content: start;
   flex-direction: column;
-  align-items: left;
-  justify-content: center;
-  width: 60%;
+  margin-right: 45%;
+  margin-bottom: 25%;
 `;
 
 export const Title = styled.h1`
@@ -34,7 +35,7 @@ export const Title = styled.h1`
 `
 
 export const SubTitle = styled.p`
-  color: #f2f2f2;
+  color: #828282;
   font-size: 18px;
   text-align: left;
 
@@ -48,4 +49,18 @@ export const Description = styled.p`
   font-family: Arial, Helvetica, sans-serif;
 
   margin-top: 15px;
+`;
+
+export const ConectButton = styled.button`
+  width: 150px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid #828282;
+  margin-top: 50px;
+`;
+
+export const ConectButtonText = styled.p`
+  font-size: 14px;
+  color: #f2f2f2;
+  cursor: pointer;
 `;

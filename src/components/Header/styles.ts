@@ -7,33 +7,35 @@ export const Container = styled.div`
   justify-content: space-between;
   width: 100%;
   height: 50px;
-  background-color: #fff;
-  background-color: rgba(255,255,255,0.1);
 `;
 
 export const Logo = styled.p`
   font-weight: bold;
-  margin-left: 20px;
-  color: #fafafa;
-  font-size: 16px;
+  color: #f2f2f2;
+  font-size: 24px;
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  margin-left: 30px;
+  cursor: pointer;
 `;
 
 export const NavItems = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  width: 30%;
+  justify-content: center;
+  margin-top: 30px;
+  margin-right: 30px;
 `;
 
 export const NavItemsText = styled.a`
-  color: #8f9ba8;
-  font-size: 12px;
+  color: #f2f2f2;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   cursor: pointer;
   transition: 0.5s;
+  margin: 20px;
 
   &:hover  {
     color: #333;

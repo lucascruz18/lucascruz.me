@@ -1,19 +1,22 @@
 import React from 'react'
+import Link from 'next/link';
 
 import {Container, Logo, NavItems, NavItemsText, Donate} from './styles'
 
 export default function Articles() {
   return (
     <Container>
-      <Logo>LQT</Logo>
+      <Link href="/">
+        <Logo>L</Logo>
+      </Link>
 
       <NavItems>
-        <NavItemsText>ABOUT</NavItemsText>
-        <NavItemsText>ARTICLES</NavItemsText>
-        <NavItemsText>PROJECTS</NavItemsText>
+        <Link href="/about">
+          <NavItemsText>About me</NavItemsText>
+        </Link>
+        <NavItemsText>Articles</NavItemsText>
+        <NavItemsText>Projects</NavItemsText>
       </NavItems>
-
-      <Donate>D</Donate>
     </Container>
   );
 }
